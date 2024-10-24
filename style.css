@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     background-color: #1A1244;
     padding: 10px 200px;
+    border-bottom: 2px solid #a491ff;
 }
 
 nav div{
@@ -44,3 +45,158 @@ nav ul li a:hover{
     color: red;
     border-radius: 5px;
 }
+
+/* ========================Hero Area Code Here================== */
+
+header{
+    background-image: url(images/banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.inputSearchBoxParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSearchBoxParent i{
+    color: red;
+    background-color: green;
+    font-size: 1.5rem;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -3px;
+}
+.inputSearchBoxParent input{
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    /* border-style: none; */
+}
+
+/* Main Section Code Start Here */
+
+main{
+    background-color: #2d236a;
+    padding-top: 20px;
+}
+
+.mainSectionParent{
+    width: 1100px;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 50px;
+}
+
+.mainHeadingParent{
+    display: flex;
+    justify-content: space-between;
+}
+.latestText{
+    font-size: 1.5rem;
+    color: #04aa6d;
+    font-weight: bold;
+}
+
+.latextPage{
+    color: #04aa6d;
+}
+.mainHeadingParent span{
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    border: 1px solid #80805b;
+    cursor: pointer;
+}
+
+.cardParent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.singleCard{
+    height: 250px;
+    /* border: 2px solid gray; */
+    /* overflow: hidden; */
+}
+.singleCard .imgDiv{
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 2px solid gray;
+    
+}
+
+.singleCard .imgDiv img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    
+}
+.singleCard .imgDiv img:hover{
+    transform: scale(1.3);
+    
+}
+.dateViewTextparent{
+    /* width: 100px;
+    height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    /* margin-top: 200px; */
+    /* border: 1px solid red; */
+}
+
+.previesNextParent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: blueviolet; */
+    align-items: center;
+    
+}
+
+.previesNextParent a{
+    text-decoration: none;
+    color: white;
+}
+
+ .previesNextParent div a{
+    padding: 5px 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.previesNextParent h3{
+    background-color: #04aa6d;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+} 
+
+.previesNextParent h3:hover{
+    background-color: #028656b4;
+    
+} 
+
+.previesNextParent div a:first-child{
+    background-color: #028656b4;
+    
+} 
